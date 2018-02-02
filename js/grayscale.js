@@ -41,7 +41,7 @@ function init() {
         zoom: 14,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(50.9352714, 6.9347012), // die wohngemeinschaft
+        center: new google.maps.LatLng(50.930431, 6.946937), // hack.institute
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -94,7 +94,7 @@ function init() {
     // Solution Space
     var solutionSpace = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(50.9352714, 6.9347012), // die wohngemeinschaft
+        position: new google.maps.LatLng(50.930431, 6.946937), // hack.institute
         icon: 'img/map-marker-office.png'
     });
 }
